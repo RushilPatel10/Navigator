@@ -1,0 +1,220 @@
+
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.view-record-link {
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-record-link:hover {
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.gender-options,
+.hobby-options {
+  display: flex;
+  gap: 15px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #5a9ee6;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+/*  */
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.add-record-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #98afc7;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th, .td {
+  padding: 10px;
+  text-align: center;
+}
+
+.th {
+  background-color: #5293d8;
+  color: white;
+}
+
+.tr {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.delete-btn {
+  background-color: #df6d78;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Dark theme styles */
+.form-container.dark-theme {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow */
+}
+
+.dark-form {
+  color: #ffffff;
+}
+
+.form-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.view-record-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  background-color: #333333; /* Dark input background */
+  color: #ffffff; /* White text */
+  border: 1px solid #555555; /* Border color */
+  border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007bff; /* Button background */
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker button hover effect */
+}
+
+.error-message {
+  color: #ff4d4d; /* Error message color */
+  font-size: 12px;
+  margin-top: 5px;
+}
